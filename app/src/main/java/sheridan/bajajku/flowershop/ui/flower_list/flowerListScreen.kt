@@ -13,7 +13,7 @@ import sheridan.bajajku.flowershop.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun PetListScreen(
+fun FlowerListScreen(
     viewModel: FlowerListViewModel,
     modifier: Modifier = Modifier
 ){
