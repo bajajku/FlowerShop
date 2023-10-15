@@ -8,7 +8,7 @@ import sheridan.bajajku.flowershop.data.local.fakeFlowerList
 
 class FlowerListViewModel: ViewModel()
 {
-    private val _uiState: MutableState<flowerListUiState> = mutableStateOf(flowerListUiState.Loaded(    fakeFlowerList))
+    private val _uiState: MutableState<flowerListUiState> = mutableStateOf(flowerListUiState.Loaded(fakeFlowerList))
 
     val uiState: State<flowerListUiState> = _uiState
 }
