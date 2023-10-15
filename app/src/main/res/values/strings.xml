@@ -7,5 +7,5 @@
     <string name="cannot_load_data">Cannot Load Data</string>
     <string name="retry_button_label">Retry</string>
     <string name="loading_data">Loading Data</string>
-    <string name="fake_delay">Faks Delay, 2s</string>
+    <string name="fake_delay">Fake Delay, 2s</string>
 </resources>
