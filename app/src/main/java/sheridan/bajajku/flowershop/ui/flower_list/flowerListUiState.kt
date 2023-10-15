@@ -6,5 +6,7 @@ sealed interface flowerListUiState{
 
     data class Loaded(val flowers: List<Flower>):flowerListUiState
 
+    object Loading: flowerListUiState
+    object Error: flowerListUiState
 
 }

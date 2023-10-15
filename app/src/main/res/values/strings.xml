@@ -3,4 +3,9 @@
 
     <string name="back_button">Back</string>
     <string name="list_title">Flower List</string>
+    <string name="loading_error">Loading Error</string>
+    <string name="cannot_load_data">Cannot Load Data</string>
+    <string name="retry_button_label">Retry</string>
+    <string name="loading_data">Loading Data</string>
+    <string name="fake_delay">Faks Delay, 2s</string>
 </resources>

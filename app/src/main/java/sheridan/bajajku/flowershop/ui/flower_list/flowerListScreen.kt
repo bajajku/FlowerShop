@@ -36,6 +36,10 @@ fun FlowerListScreen(
                 flowerList = uiState.flowers,
                 modifier = modifier.padding(innerPadding)
             )
+            is flowerListUiState.Loading -> LoadingBody()
+            is flowerListUiState.Error -> ErrorBody(
+                onRetry = viewModel::reloadFlowerList
+            )
         }
     }
 }
